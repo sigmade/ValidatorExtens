@@ -9,4 +9,4 @@ Install
 ```
 dotnet add package ValidatorExtens
 ```
-[Go to www.nuget.org](https://www.nuget.org/packages/ValidatorExtens/)
+[Go to nuget.org](https://www.nuget.org/packages/ValidatorExtens/)
