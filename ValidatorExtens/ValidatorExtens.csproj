@@ -8,10 +8,15 @@
     <RepositoryUrl>https://github.com/sigmade/ValidatorExtens</RepositoryUrl>
     <Description>Simple extensions for validation</Description>
     <Version>1.0.1</Version>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="C:\Users\Admin501\Desktop\nuget\icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
