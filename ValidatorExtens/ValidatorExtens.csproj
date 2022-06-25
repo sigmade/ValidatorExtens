@@ -7,7 +7,7 @@
     <PackageProjectUrl>https://github.com/sigmade/ValidatorExtens</PackageProjectUrl>
     <RepositoryUrl>https://github.com/sigmade/ValidatorExtens</RepositoryUrl>
     <Description>Simple extensions for validation</Description>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
