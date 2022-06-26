@@ -11,7 +11,7 @@ NuGet Package Manager
 
 ![image](https://user-images.githubusercontent.com/55326490/175799394-f782ddb4-35cb-4402-b60f-0dee5af6f6a2.png)
 
-Terminal
+.NET CLI
 
 ```PowerShell
 dotnet add package ValidatorExtens
