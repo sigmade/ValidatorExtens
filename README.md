@@ -13,7 +13,7 @@ NuGet Package Manager
 
 .NET CLI
 
-```PowerShell
+```powershell
 dotnet add package ValidatorExtens
 ```
 [Go to nuget.org](https://www.nuget.org/packages/ValidatorExtens/)
