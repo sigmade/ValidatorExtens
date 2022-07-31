@@ -14,6 +14,6 @@ NuGet Package Manager
 .NET CLI
 
 ```powershell
-dotnet add package ValidatorExtens
+dotnet add package DiForConsole
 ```
 [Go to nuget.org](https://www.nuget.org/packages/ValidatorExtens/)
