@@ -9,11 +9,11 @@
 
 NuGet Package Manager
 
-![image](https://user-images.githubusercontent.com/55326490/175799394-f782ddb4-35cb-4402-b60f-0dee5af6f6a2.png)
+![image](https://user-images.githubusercontent.com/55326490/182037695-96caa0d6-c0ef-49c5-b065-c06ab830dec5.png)
 
 .NET CLI
 
 ```powershell
-dotnet add package DiForConsole
+dotnet add package ValidatorExtens
 ```
 [Go to nuget.org](https://www.nuget.org/packages/ValidatorExtens/)
