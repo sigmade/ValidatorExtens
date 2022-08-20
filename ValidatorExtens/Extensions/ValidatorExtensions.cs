@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq.Expressions;
 using ValidatorExtens.Exceptions;
 
 namespace ValidatorExtens.Extensions
@@ -12,9 +11,9 @@ namespace ValidatorExtens.Extensions
         /// <param name="predicate">Validate predicate</param>
         /// <returns>Validated type</returns>
         /// <exception cref="ValidateException">Exception message with validated type</exception>
-        public static T EnsureValid<T>(this T val, Func<T, bool> predicate) where T : class
+        public static T EnsureValid<T>(this T val, Func<T, bool> predicate)
         {
-            if (val is null)
+            if (val == null)
             {
                 throw new ValidateException($"Value: {val} is null");
             }
