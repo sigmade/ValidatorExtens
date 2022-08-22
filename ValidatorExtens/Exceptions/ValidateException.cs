@@ -13,6 +13,10 @@ namespace ValidatorExtens.Exceptions
         {
         }
 
+        public ValidateException(string message, object val) : base($"{message}{val}")
+        {
+        }
+
         public ValidateException(string message, Exception innerException) : base(message, innerException)
         {
         }

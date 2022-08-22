@@ -7,7 +7,7 @@ namespace ValidatorExtensTests
 {
     public class EnsureValidTests
     {
-        private Person Person = new Person { Id = 1, Name = "Tom"};
+        private readonly Person Person = new () { Id = 2, Name = "Tom"};
 
         [Fact]
         public void Success_Ensure_Valid_Class()
@@ -28,6 +28,19 @@ namespace ValidatorExtensTests
 
             // Act Assert
             Assert.Throws<ValidateException>(() => person.EnsureValid(p => p.Id > 0 && p.Name != "admin"));
+        }
+
+        [Fact]
+        public void Success_Ensure_Valid_Num()
+        {
+            // Arrange
+            var num = Person.Id;
+
+            // Act
+            var exception = Record.Exception(() => num.EnsureValid(p => p > 1));
+
+            // Assert
+            Assert.Null(exception);
         }
     }
 }
